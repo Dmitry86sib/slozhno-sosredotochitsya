@@ -1,4 +1,5 @@
 :root .theme_dark {
+  --main-font: IBM Plex Mono;
   --title-color: #DB00FF;
   --text-color: #F1B2CE;
   --bg-color: #000028;
@@ -13,6 +14,7 @@
 }
 
 .page.theme_dark {
+  --main-font: IBM Plex Mono;
   --title-color: #DB00FF;
   --text-color: #F1B2CE;
   --bg-color: #000028;
@@ -30,6 +32,7 @@
 @media (prefers-color-scheme: dark) {
   
   :root {
+    --main-font: IBM Plex Mono;
     --title-color: #DB00FF;
     --text-color: #F1B2CE;
     --bg-color: #000028;
