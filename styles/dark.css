@@ -26,8 +26,7 @@
   --bg-image: url(../images/cover-image-dark.png);
 }
 
-
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   
   :root {
     --title-color: #DB00FF;
@@ -42,4 +41,4 @@
     --text-shadow-color: #FF0070;
     --bg-image: url(../images/cover-image-dark.png);
   }
-} */
+}
