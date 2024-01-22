@@ -1,4 +1,18 @@
-:root .theme_light {
+/* :root .theme_light {
+  --text-color: #353430;
+  --title-color: #FFC2E6;
+  --accent-color: #353430;
+  --accent-color-bg: #FF8DCB;
+  --bg-color: #FFF1F7;
+  --subtitle-color: #353430;
+  --outline-color: rgba(50, 49, 45, 0.40);
+  --link-color: #353430;
+  --link-shadow: #FF8DCB;
+  --text-shadow-color: #FF8DCB;
+  --bg-image: url(../images/cover-image-light.png);
+} */
+
+:root {
   --text-color: #353430;
   --title-color: #FFC2E6;
   --accent-color: #353430;
