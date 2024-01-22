@@ -244,7 +244,7 @@
 }
 
 .link {
-  color: var(--link-color, #F1B2CE);
+  color: var(--text-color, #F1B2CE);
   text-decoration: none;
   text-shadow: 2px 2px var(--text-shadow-color, #FF0070);
 }
