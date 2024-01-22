@@ -3,7 +3,7 @@
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --accent-color-bg: #FF0070;
-  --bg-color: #000028;
+  /* --bg-color: #000028; */
   --subtitle-color: #000028;
   --outline-color: rgba(255, 0, 112, 0.40);
   --bg-image: url(../images/cover-image-dark.png);
@@ -14,7 +14,7 @@
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --accent-color-bg: #FF0070;
-  --bg-color: #000028;
+  /* --bg-color: #000028; */
   --subtitle-color: #000028;
   --outline-color: rgba(255, 0, 112, 0.40);
   --bg-image: url(../images/cover-image-dark.png);
@@ -24,7 +24,7 @@
   :root {
     --title-color: #DB00FF;
     --text-color: #F1B2CE;
-    --bg-color: #000028;
+    /* --bg-color: #000028; */
     --subtitle-color: #000028;
     --accent-color: #FF0070;
     --accent-color-bg: #FF0070;
