@@ -1,7 +1,6 @@
 .page {
   color: var(--text-color, #F1B2CE);
   font-family: var(--main-font, sans-serif);
-  /* background-color: var(--bg-color, #000028); */
   background-image: var(--bg-image, url(../images/cover-image-dark.png));
   background-repeat: no-repeat;
   background-position: center;
@@ -30,7 +29,6 @@
   justify-content: center;
   gap: 10px;
   margin: auto;
-  color: var(--accent-color, #FF0070);
 }
 
 .header__theme-menu-button {
@@ -39,6 +37,7 @@
   font-family: inherit;
   font-size: 18px;
   background-color: transparent;
+  color: var(--accent-color, #FF0070); 
 }
 
 .header__theme-menu-item {
@@ -113,7 +112,7 @@
   height: 9px;
   background-color: var(--accent-color, #FF0070);
   margin-inline-end: 10px;
-  box-shadow: 0 0 5px 3px #FF0070;
+  box-shadow: 0 0 5px 3px var(--accent-color-bg);
 }
 
 .header::before {

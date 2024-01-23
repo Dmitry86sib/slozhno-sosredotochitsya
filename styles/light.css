@@ -1,9 +1,8 @@
-:root .theme_light {
+:root.theme_light {
   --title-color: #FFC2E6;
   --text-color: #353430;
   --accent-color: #353430;
   --accent-color-bg: #FF8DCB;
-  /* --bg-color: #FFF1F7; */
   --subtitle-color: #353430;
   --outline-color: rgba(50, 49, 45, 0.40);
   --bg-image: url(../images/cover-image-light.png);
@@ -32,7 +31,6 @@
     --text-color: #353430;
     --accent-color: #353430;
     --accent-color-bg: #FF8DCB;
-    /* --bg-color: #FFF1F7; */
     --subtitle-color: #353430;
     --outline-color: rgba(50, 49, 45, 0.40);
     --bg-image: url(../images/cover-image-light.png);
