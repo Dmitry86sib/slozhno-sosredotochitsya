@@ -75,12 +75,14 @@
   font-weight: 700;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 82.5%;
-  text-shadow: 4px 4px 0px var(--accent-color-bg, #FF0070);
+  /* text-shadow: 4px 4px 0px var(--accent-color-bg, #FF0070); */
+  text-shadow: 4px 4px 0px var(--accent-color, #FF0070);
 }
 
 .title-decor {
   color: var(--subtitle-color, #000028);
-  background-color: var(--accent-color-bg, #FF0070);
+  /* background-color: var(--accent-color-bg, #FF0070); */
+  background-color: var(--accent-color, #FF0070);
 }
 
 .content__header {
@@ -112,7 +114,8 @@
   height: 9px;
   background-color: var(--accent-color, #FF0070);
   margin-inline-end: 10px;
-  box-shadow: 0 0 5px 3px var(--accent-color-bg);
+  /* box-shadow: 0 0 5px 3px var(--accent-color-bg, #FF0070); */
+  box-shadow: 0 0 5px 3px var(--accent-color, #FF0070);
 }
 
 .header::before {
@@ -245,7 +248,8 @@
 .link {
   color: var(--text-color, #F1B2CE);
   text-decoration: none;
-  text-shadow: 2px 2px var(--accent-color-bg, #FF0070);
+  /* text-shadow: 2px 2px var(--accent-color-bg, #FF0070); */
+  text-shadow: 2px 2px var(--accent-color, #FF0070);
 }
 
 .link:hover {
@@ -319,7 +323,8 @@
   font-weight: 700;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 82.5%;
-  text-shadow: 2px 2px 0px var(--accent-color-bg, #FF0070);
+  /* text-shadow: 2px 2px 0px var(--accent-color-bg, #FF0070); */
+  text-shadow: 2px 2px 0px var(--accent-color, #FF0070);
 }
 
 .footer::before {
