@@ -18,7 +18,7 @@
   --bg-image: url(../images/cover-image-dark.png);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --title-color: #DB00FF;
     --text-color: #F1B2CE;
@@ -28,4 +28,4 @@
     --outline-color: rgba(255, 0, 112, 0.40);
     --bg-image: url(../images/cover-image-dark.png);
   }
-}
+} */
