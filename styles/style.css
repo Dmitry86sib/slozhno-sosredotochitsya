@@ -362,6 +362,15 @@
     display: flex;
     flex-direction: column;
   }
+
+
+
+  .section__block-third {
+    /* display: grid; */
+    grid-template-columns: 1fr 2fr;
+    /* grid-template-rows: 1fr;
+    gap: 20px; */
+  }
 }
 
 @media (width < 576px) {
