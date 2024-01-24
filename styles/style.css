@@ -1,6 +1,6 @@
 .page {
   color: var(--text-color, #F1B2CE);
-  font-family: var(--main-font, sans-serif);
+  font-family: var(--main-font, monospace);
   background-image: var(--bg-image, url(../images/cover-image-dark.png));
   background-repeat: no-repeat;
   background-position: center;
@@ -39,6 +39,7 @@
   font-size: 18px;
   background-color: transparent;
   color: var(--accent-color, #FF0070);
+  cursor: pointer;
 }
 
 .header__theme-menu-item {
@@ -161,7 +162,7 @@
 
 .section__block-first {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 0.97fr 2fr;
   grid-template-rows: repeat(2, 1fr);
   gap: 20px;
 }
@@ -178,7 +179,6 @@
   font-size: 18px;
   font-style: normal;
   line-height: 23.4px;
-  letter-spacing: -0.2px;
   word-wrap: break-word;
 }
 
@@ -221,7 +221,7 @@
 
 .section__block-third {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 0.97fr 2fr;
   grid-template-rows: 1fr;
   gap: 20px;
 }
