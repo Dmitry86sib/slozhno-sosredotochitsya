@@ -363,8 +363,6 @@
     flex-direction: column;
   }
 
-
-
   .section__block-third {
     grid-template-columns: 1fr 2fr;
   }
