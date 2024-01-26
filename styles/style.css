@@ -1,12 +1,12 @@
 .page {
-  color: var(--text-color, #F1B2CE);
+  color: var(--text-color, #f1b2ce);
   font-family: var(--main-font, monospace);
+  background-color: var(--bg-color);
   background-image: var(--bg-image, url(../images/cover-image-dark.png));
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-color: var(--bg-color);
 }
 
 .header {
@@ -35,10 +35,10 @@
 .header__theme-menu-button {
   border: none;
   padding: 1px 13px;
+  color: var(--accent-color, #ff0070);
   font-family: inherit;
   font-size: 18px;
   background-color: transparent;
-  color: var(--accent-color, #FF0070);
   cursor: pointer;
 }
 
@@ -47,8 +47,8 @@
 }
 
 .header__theme-menu-button_active {
+  outline: 1px solid var(--accent-color, #ff0070);
   pointer-events: none;
-  outline: 1px solid var(--accent-color, #FF0070);
 }
 
 .header__theme-menu-button:not(.header__theme-menu-button_active) {
@@ -56,33 +56,37 @@
 }
 
 .header__theme-menu-button:hover,
-.header__theme-menu-list .header__theme-menu-item:last-of-type .header__theme-menu-button:hover {
-  outline: 1px solid var(--outline-color, rgba(255, 0, 112, 0.40));
+.header__theme-menu-list
+  .header__theme-menu-item:last-of-type
+  .header__theme-menu-button:hover {
+  outline: 1px solid var(--outline-color, rgba(255, 0, 112, 0.4));
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--accent-color, #FF0070);
+  border-block-end: 1px solid var(--accent-color, #ff0070);
 }
 
-.header__theme-menu-list .header__theme-menu-item:last-of-type .header__theme-menu-button:focus-visible,
+.header__theme-menu-list
+  .header__theme-menu-item:last-of-type
+  .header__theme-menu-button:focus-visible,
 .header__theme-menu-button:focus {
   outline: none;
 }
 
 .title {
-  grid-area: 2/1/3/span 2;
+  grid-area: 2/1/3 / span 2;
   align-self: center;
   margin-inline-start: -20px;
-  color: var(--title-color, #DB00FF);
+  color: var(--title-color, #db00ff);
   font-weight: 700;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 82.5%;
-  text-shadow: 4px 4px 0px var(--accent-color, #FF0070);
+  text-shadow: 4px 4px 0px var(--accent-color, #ff0070);
 }
 
 .title-decor {
   color: var(--subtitle-color, #000028);
-  background-color: var(--accent-color, #FF0070);
+  background-color: var(--accent-color, #ff0070);
 }
 
 .content__header {
@@ -95,7 +99,7 @@
   position: absolute;
   display: flex;
   align-items: center;
-  color: var(--accent-color, #FF0070);
+  color: var(--accent-color, #ff0070);
   font-size: 18px;
   line-height: 25px;
   inset-block-start: 0;
@@ -109,19 +113,19 @@
 
 .header__rec::after {
   content: "";
+  margin-inline-end: 10px;
   border-radius: 50%;
+  box-shadow: 0 0 5px 3px var(--accent-color, #ff0070);
+  background-color: var(--accent-color, #ff0070);
   inline-size: 9px;
   block-size: 9px;
-  background-color: var(--accent-color, #FF0070);
-  margin-inline-end: 10px;
-  box-shadow: 0 0 5px 3px var(--accent-color, #FF0070);
 }
 
 .header::before {
   content: "";
   position: absolute;
-  border-inline-end: 1px solid var(--accent-color, #FF0070);
-  border-block-start: 1px solid var(--accent-color, #FF0070);
+  border-inline-end: 1px solid var(--accent-color, #ff0070);
+  border-block-start: 1px solid var(--accent-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
   inset-block-start: 20px;
@@ -131,8 +135,8 @@
 .header::after {
   content: "";
   position: absolute;
-  border-inline-start: 1px solid var(--accent-color, #FF0070);
-  border-block-end: 1px solid var(--accent-color, #FF0070);
+  border-inline-start: 1px solid var(--accent-color, #ff0070);
+  border-block-end: 1px solid var(--accent-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
   inset-block-end: 20px;
@@ -168,7 +172,7 @@
 }
 
 .section__title {
-  color: var(--accent-color, #FF0070);
+  color: var(--accent-color, #ff0070);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -244,14 +248,14 @@
 }
 
 .link {
-  color: var(--text-color, #F1B2CE);
+  color: var(--text-color, #f1b2ce);
   text-decoration: none;
-  text-shadow: 2px 2px var(--accent-color, #FF0070);
+  text-shadow: 2px 2px var(--accent-color, #ff0070);
 }
 
 .link:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  /* text-decoration: underline; */
+  border-bottom: 1px solid currentColor;
 }
 
 .link:focus {
@@ -259,7 +263,7 @@
 }
 
 .link:focus-visible {
-  outline: 1px solid var(--text-color, #F1B2CE);
+  outline: 1px solid var(--text-color, #f1b2ce);
 }
 
 .picture {
@@ -288,7 +292,7 @@
 }
 
 .ice-cream {
-  grid-column: 3/span 1;
+  grid-column: 3 / span 1;
   grid-row: 1/3;
 }
 
@@ -308,6 +312,7 @@
 
 .footer {
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -315,30 +320,40 @@
 }
 
 .footer__title {
-  margin: auto;
-  color: var(--title-color, #DB00FF);
+  /* padding: 20px; */
+  color: var(--title-color, #db00ff);
   font-weight: 700;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 82.5%;
-  text-shadow: 2px 2px 0px var(--accent-color, #FF0070);
+  text-shadow: 2px 2px 0px var(--accent-color, #ff0070);
 }
 
 .footer::before {
+  position: absolute;
+
   content: "";
   align-self: flex-end;
-  border-inline-start: 1px solid var(--accent-color, #FF0070);
-  border-block-end: 1px solid var(--accent-color, #FF0070);
+  border-inline-end: 1px solid var(--accent-color, #ff0070);
+  border-block-start: 1px solid var(--accent-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
+
+  inset-block-start: 20px;
+  inset-inline-end: 20px;
 }
 
 .footer::after {
+  position: absolute;
+
   content: "";
   align-self: flex-start;
-  border-inline-end: 1px solid var(--accent-color, #FF0070);
-  border-block-start: 1px solid var(--accent-color, #FF0070);
+  border-inline-start: 1px solid var(--accent-color, #ff0070);
+  border-block-end: 1px solid var(--accent-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
+
+  inset-block-end: 20px;
+  inset-inline-start: 20px;
 }
 
 @media (width < 1024px) {
@@ -368,7 +383,7 @@
   }
 }
 
-@media (width < 576px) {
+@media (width < 768px) {
   .header__theme-menu-list {
     justify-content: center;
     padding-block-start: 62px;
@@ -396,9 +411,16 @@
     grid-column: 1/3;
   }
 
-  .header::after {
+  .header::after,
+  .footer::after {
     inset-block-end: 10px;
     inset-inline-start: 10px;
+  }
+
+  .header::before,
+  .footer::before {
+    inset-block-start: 10px;
+    inset-inline-end: 10px;
   }
 
   .title {
