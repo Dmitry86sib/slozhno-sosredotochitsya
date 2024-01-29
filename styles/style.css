@@ -279,7 +279,12 @@
   margin-block-end: 60px;
 }
 
-
+.grid__gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(3, min-content); 
+  gap: 20px;
+}
 
 .sunset {
   grid-column: 1/3;
