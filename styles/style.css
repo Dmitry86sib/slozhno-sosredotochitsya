@@ -321,8 +321,7 @@
     flex-direction: column;
   }
 
-  .section__block-first,
-  .section__block-third {
+  .section__content {
     grid-template-columns: 1fr 2fr;
   }
 }
@@ -379,9 +378,8 @@
     padding: 0 10px;
   }
 
-  .section__block-first,
-  .section__block-second,
-  .section__block-third {
+  .section__content,
+  .section__what {
     display: flex;
     flex-direction: column;
   }
