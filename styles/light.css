@@ -25,7 +25,7 @@
     --accent-color-shadow: #FF8DCB;
   }
 
-  .page:not(.theme_dark) .header__rec {
+  .header__rec {
     display: none;
   }
 }
